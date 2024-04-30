@@ -1,0 +1,293 @@
+{
+    "Artwork": [
+        { 
+            "id":1,
+            "name":"Tree at Night",
+            "type":"Painting",
+            "imgLink":"./images/night_tree.png",
+            "etsyLink":"https://www.etsy.com/listing/982060203/tree-at-night?click_key=658c8bc5df5d956eb01bb93154f9db4a9af04d69%3A982060203&click_sum=3612a9b8&ref=shop_home_active_9",
+            "imgAlt":"night_tree",
+            "imgClass":"wide_img",
+            "imgDesc":"A water color painted background of a tree with water color pencils to give details. This tree sits on our yard and is a favorite to climb in!",
+            "imgHigh":{
+                        "high1":"Handmade",
+                        "high2":"Materials: Water Color, Water Color Pencils, Mix Media Paper",
+                        "high3":"Width: 12 inches",
+                        "high4":"Height: 9 inches"
+                      },
+            "imgPrice":"25.00"
+        },
+        { 
+            "id":2,
+            "name":"Rose in Hand",
+            "type":"Painting",
+            "imgLink":"./images/rose_in_hand.png",
+            "etsyLink":"https://www.etsy.com/listing/996024781/rose-in-the-hand?click_key=fd7b88f846a03ee3a13cb34d96d8899727740540%3A996024781&click_sum=378f63bc&ref=shop_home_active_1",
+            "imgAlt":"rose_in_hand",
+            "imgClass":"tall_img",
+            "imgDesc":"My daughter and I often do small art challenges. This piece came to life through one of our challenges. The challenge was to create a metaphor (driven by the current school lessons), we picked one out of a hat and started creating! Was a fun piece to make while my kids were home on spring break! As we created we discuss literal meanings and figurative meanings and this piece began to form. I finished it in chalk pastels. I enjoyed this piece because it reminds me of the time and laughs with my daughter.",
+            "imgHigh":{
+                        "high1":"Handmade",
+                        "high2":"Materials: Chalk Pastel, Mixed Media Paper",
+                        "high3":"Only 1 available",
+                        "high4":"Rare find"
+                      },
+            "imgPrice":"45.00"
+        },
+        { 
+            "id":3,
+            "name":"Flowers",
+            "type":"Painting",
+            "imgLink":"./images/flowers.png",
+            "etsyLink":"https://www.etsy.com/listing/981830678/flowers?click_key=0a02636b61350ff33719b175275f8d8ad1303d63%3A981830678&click_sum=bbbe7d1e&ref=shop_home_active_2",
+            "imgAlt":"flowers",
+            "imgClass":"tall_img",
+            "imgDesc":"This piece is a watercolor of flowers that are blooming. It is done on watercolor paper. Spring has sprung in my new home, so I was inspired by all of the flowers that are in bloom.",
+            "imgHigh":{
+                        "high1":"Handmade",
+                        "high2":"Materials: Watercolor",
+                        "high3":"Width: 11 inches",
+                        "high4":"Height: 14 inches"
+                      },
+            "imgPrice":"35.00"
+        },
+        { 
+            "id":4,
+            "name":"Fogged Pour",
+            "type":"Painting",
+            "imgLink":"./images/fogged_pour.png",
+            "etsyLink":"https://www.etsy.com/listing/1195396876/fogged-pour?click_key=aa2e3b244d16c2a12e0cbb558814ae65c0a90938%3A1195396876&click_sum=de8e7d70&ref=shop_home_active_4",
+            "imgAlt":"fogged_pour",
+            "imgClass":"tall_img",
+            "imgDesc":"This fluid pour is done in a Dutch pour technique in green, black, white, silver and mauve, the color combinations are fantastic! It is finished with a cool resin to give it a fog effect across the top, while the sides remain more vivid with a warmer technique. It was completed on a 10x20 canvas.",
+            "imgHigh":{
+                        "high1":"Handmade",
+                        "high2":"Materials: Surface: Stretched Canvas",
+                        "high3":"Width: 20 inches",
+                        "high4":"Height: 10 inches"
+                      },
+            "imgPrice":"75.00"
+        },
+        {
+            "id":5,
+            "name":"Tree",
+            "type":"Painting",
+            "imgLink":"./images/tree.png",
+            "etsyLink":"https://www.etsy.com/listing/956699900/tree?click_key=bf57eac7a2f6c3786d6e4a4c54f777c0b64bce63:956699900&click_sum=ffc8f89c&ref=shop_home_active_13",
+            "imgAlt":"tree",
+            "imgClass":"tall_img",
+            "imgDesc":"An abstract painting of a tree on a stretched canvas. I was inspired by the colors and some of the trees I saw while visiting a friend in China.",
+            "imgHigh":{
+                        "high1":"Handmade",
+                        "high2":"Materials: Acrylic, Canvas",
+                        "high3":"Width: 24 inches",
+                        "high4":"Height: 36 inches"
+                      },
+            "imgPrice":"400.00"
+        },
+        {
+            "id":6,
+            "name":"Headache",
+            "type":"Painting",
+            "imgLink":"./images/headache.png",
+            "etsyLink":"https://www.etsy.com/listing/954571994/headache?click_key=57ee4da2360982e7003aed4ff8ad8315541a3cc2:954571994&click_sum=91f3fffd&ref=shop_home_active_14",
+            "imgAlt":"headache",
+            "imgClass":"wide_img",
+            "imgDesc":"An acrylic painting on canvas. It was inspired by some migraines I had been experiencing after a head injury.",
+            "imgHigh":{
+                        "high1":"Handmade",
+                        "high2":"Materials: Surface: Stretched Canvas",
+                        "high3":"Width: 36 inches",
+                        "high4":"Height: 24 inches"
+                      },
+            "imgPrice":"400.00"
+        },
+        {
+            "id":7,
+            "name":"Red and Blue Abstract",
+            "type":"Painting",
+            "imgLink":"./images/red_blue_abstract.png",
+            "etsyLink":"https://www.etsy.com/listing/1029159337/red-and-blue-abstract?click_key=e1f6d9feb35c0a108da0fbd23c2d6988875b8584%3A1029159337&click_sum=a5788bb2&ref=shop_home_active_15",
+            "imgAlt":"red and blue abstract",
+            "imgClass":"wide_img",
+            "imgDesc":"This is an acrylic abstract done in a paint pour style combined with dry on dry scrape techniques to give this painting a unique texture.",
+            "imgHigh":{
+                        "high1":"Handmade",
+                        "high2":"Materials: Acrylic Paint, Paint Paper",
+                        "high3":"Width: 14 inches",
+                        "high4":"Height: 11 inches"
+                      },
+            "imgPrice":"15.00"
+        },
+        {
+            "id":8,
+            "name":"Bold Blocks",
+            "type":"Painting",
+            "imgLink":"./images/bold_blocks.png",
+            "etsyLink":"https://www.etsy.com/listing/1011316618/bold-blocks?click_key=48cdbf6c058c57e218ace46cc70235153ddac188%3A1011316618&click_sum=f451ff76&ref=shop_home_active_16",
+            "imgAlt":"bold blocks",
+            "imgClass":"tall_img",
+            "imgDesc":"Bold and beautiful colors done in pastels come together within the shapes on this piece. The bold blocks fit together, yet stand apart to evoke an array of feelings in me and I hope you too! This visual piece will bring these feelings to life when you walk into the room and glance over at its vibrant colors.",
+            "imgHigh":{
+                        "high1":"Handmade",
+                        "high2":"Materials: Pastels, Mixed Media Paper",
+                        "high3":"Width: 24 inches",
+                        "high4":"Height: 18 inches"
+                      },
+            "imgPrice":"40.00"
+        },
+        { 
+            "id":9,
+            "name":"Emotional Tree",
+            "type":"Oil Pastel",
+            "imgLink":"./images/emotional_tree.png",
+            "etsyLink":"https://www.etsy.com/listing/958292230/emotional-tree?click_key=df6f18b5c76b6f4286de9d6002b79a4c32b36a4e%3A958292230&click_sum=81c5b6cc&ref=shop_home_active_4",
+            "imgAlt":"emotional tree",
+            "imgClass":"tall_img",
+            "imgDesc":"An oil pastel abstract tree. Bright, bold background with a tree in the foreground. With anger, frustration, sadness, trees always offer me a sense of calm and a way to get back to the \"green zone\".",
+            "imgHigh":{
+                        "high1":"Handmade",
+                        "high2":"Materials: Oil Pastel",
+                        "high3":"Width: 9 inches",
+                        "high4":"Height: 12 inches"
+                      },
+            "imgPrice":"30.00"
+        },
+        { 
+            "id":10,
+            "name":"Birds",
+            "type":"Oil Pastel",
+            "imgLink":"./images/birds.png",
+            "etsyLink":"https://www.etsy.com/listing/963622660/birds?click_key=231f65de452cab047faa2ebb9593f5acecc27998%3A963622660&click_sum=837e7044&ref=shop_home_active_11",
+            "imgAlt":"birds",
+            "imgClass":"tall_img",
+            "imgDesc":"Oil pastels bring out the eyes and the color in this piece. I used charcoal for the birds. I live in a wooded area and am inspired by the wildlife around me! I love vibrant colors as well as black and white. All art work can be modified and made to order as well.",
+            "imgHigh":{
+                        "high1":"Handmade",
+                        "high2":"Materials: Oil Pastel, Charcoal",
+                        "high3":"Width: 9 inches",
+                        "high4":"Height: 11 inches"
+                      },
+            "imgPrice":"25.00"
+        },
+        { 
+            "id":11,
+            "name":"Zow, Pow, Boom",
+            "type":"Oil Pastel",
+            "imgLink":"./images/zpb.png",
+            "etsyLink":"https://www.etsy.com/listing/972641142/zip-pow-boom?click_key=3ebb649859b5dde84ee543f5ba0ed6fa37df7ee2%3A972641142&click_sum=9b4b786c&ref=shop_home_active_5",
+            "imgAlt":"zpb",
+            "imgClass":"wide_img",
+            "imgDesc":"Orange is my absolute favorite color, and I love the art work in comic books! Not to mention, puzzles... though I am not strong at completing them, they hold a lot of meaning to me as I truly and strongly believe that everyone has a place to fit. This piece done in oil pastels has many of my favorites in one loud ZIP, POW, BOOM!!!",
+            "imgHigh":{
+                        "high1":"Handmade",
+                        "high2":"Materials: Oil Pastels, Mixed Media Paper",
+                        "high3":"Width: 12 inches",
+                        "high4":"Height: 9 inches"
+                      },
+            "imgPrice":"30.00"
+        },
+        {
+            "id":12,
+            "name":"Autism Awareness Puzzle Inspired",
+            "type":"Oil Pastel",
+            "imgLink":"./images/awareness_puzzle.png",
+            "etsyLink":"https://www.etsy.com/listing/1013179939/autism-awareness-puzzle-inspired?click_key=2f3d846c5e8c9ed36f7fae5a46d19d0334f03bd7%3A1013179939&click_sum=fd9fd240&ref=shop_home_active_17",
+            "imgAlt":"awareness puzzle",
+            "imgClass":"tall_img",
+            "imgDesc":"This puzzle piece was inspired by Autism Awareness month. As a former special education teacher, April always has me thinking of ways to include everyone, and fitting puzzle pieces together is a way to represent that in a sense. We also make puzzles for our kids to put together and had been doing that a lot lately with the spring rains so both had me thinking of puzzles! I used oil pastels to make this piece bright!",
+            "imgHigh":{
+                        "high1":"Handmade",
+                        "high2":"Materials: Oil Pastels, Mixed Media Paper",
+                        "high3":"Width: 24 inches",
+                        "high4":"Height: 18 inches"
+                      },
+            "imgPrice":"40.00"
+        },
+        { 
+            "id":13,
+            "name":"Alcohol ink -linear",
+            "type":"Alcohol Ink",
+            "imgLink":"./images/alcohol.png",
+            "etsyLink":"https://www.etsy.com/listing/1188641196/alcohol-ink-linear?click_key=ab81c5324f529bb857464525a666e4cb63cb4c46%3A1188641196&click_sum=d760ff3c&ref=shop_home_active_6",
+            "imgAlt":"alcohol",
+            "imgClass":"tall_img",
+            "imgDesc":"This is an alcohol ink piece that is blown across in green, red, black and blue. It is simple yet complex and add to your collection!",
+            "imgHigh":{
+                        "high1":"Handmade",
+                        "high2":"Width: 12 inches",
+                        "high3":"Height: 9 inches",
+                        "high4":"Rare find"
+                      },
+            "imgPrice":"20.00"
+        },
+        { 
+            "id":14,
+            "name":"Blue Green Alcohol ink",
+            "type":"Alcohol Ink",
+            "imgLink":"./images/bg_alcohol.png",
+            "etsyLink":"https://www.etsy.com/listing/1209606289/blue-green-alcohol-ink?click_key=f2daaa9f4ec8576b1efc68634188f1d8aff0a1f6%3A1209606289&click_sum=592687d4&ref=shop_home_active_3",
+            "imgAlt":"bg_alcohol",
+            "imgClass":"tall_img",
+            "imgDesc":"A line blown across with alcohol ink. The piece is done in blues and greens! It is on a 9x12 ink paper and can be easily framed!",
+            "imgHigh":{
+                        "high1":"Handmade",
+                        "high2":"Materials: Alcohol Ink",
+                        "high3":"Only 1 available",
+                        "high4":"Rare find"
+                      },
+            "imgPrice":"20.00"
+        },
+        { 
+            "id":15,
+            "name":"Coasters",
+            "type":"Coaster",
+            "imgLink":"./images/coasters.png",
+            "etsyLink":"https://www.etsy.com/listing/1184485786/set-your-drink-on-this-hand-made-coaster?click_key=d4a49ea7f01d6f5b8665cc9c7d09155eda467991%3A1184485786&click_sum=e844cf7b&ref=shop_home_recs_2",
+            "imgAlt":"coasters",
+            "imgClass":"tall_img",
+            "imgDesc":"4 by 4 inch square set of 4 coasters. This set was done in an acrylic pour technique using copper, teal, orange and navy over a white base with a finish in resin. The back is a simple copper painted finish with a cork backing to ensure scratch resistance.",
+            "imgHigh":{
+                        "high1":"Handmade",
+                        "high2":"Materials: Cork, Wood",
+                        "high3":"Only 1 available",
+                        "high4":"Rare find"
+                      },
+            "imgPrice":"20.00"
+        },
+        {
+            "id":16,
+            "name":"Planet Coasters",
+            "type":"Coaster",
+            "imgLink":"./images/planet_coasters.png",
+            "etsyLink":"https://www.etsy.com/listing/1187453010/coasters-planets?click_key=0e8b6ffe3411988a6804cae75e0f70ab89f149fd%3A1187453010&click_sum=620eb144&ref=shop_home_recs_1",
+            "imgAlt":"planet coasters",
+            "imgClass":"tall_img",
+            "imgDesc":"This coaster set of four offers round coasters that remind my kids of planets! They are done in blues and purples on 4 inch diameter wood coasters and finished in resin.",
+            "imgHigh":{
+                        "high1":"Handmade",
+                        "high2":"Materials: Acrylic, Wood",
+                        "high3":"Only 1 available",
+                        "high4":"Rare find"
+                      },
+            "imgPrice":"20.00"
+        },
+        { 
+            "id":17,
+            "name":"Flame Coasters",
+            "type":"Coaster",
+            "imgLink":"./images/flame_coasters.png",
+            "etsyLink":"https://www.etsy.com/listing/1201396147/flame-coasters?click_key=9de9419d6d3ebbd3b8e57b6ef210ed4da88befff%3A1201396147&click_sum=bf9c485a&ref=shop_home_active_8",
+            "imgAlt":"flame_coasters",
+            "imgClass":"wide_img",
+            "imgDesc":"Get fired up, with this acrylic paint poured coaster set of 6! These 4x4 inch wood coasters with a resin finish will hold your drink and spark conversation.",
+            "imgHigh":{
+                        "high1":"Handmade",
+                        "high2":"Materials: Acrylic, Resin, Wood",
+                        "high3":"Width: 4 inches",
+                        "high4":"Height: 4 inches"
+                      },
+            "imgPrice":"30.00"
+        }
+    ]
+}

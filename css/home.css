@@ -1,0 +1,301 @@
+
+body { 
+  background-color: white;
+  display: grid;
+  grid-template-areas: 
+    "header header header"
+    "nav nav nav" 
+    "left_space article right-space"
+    "footer footer footer";
+  grid-template-rows: 80px 50px 1fr 70px;  
+  grid-template-columns:15% 70% 15%;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  height: 100vh;
+  margin: 0;
+}  
+header, footer, article, nav, div {
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#header {
+  grid-area: header;
+  vertical-align: middle;
+  background-color: antiquewhite;
+  border-bottom: 1px solid darkslategray;
+}
+
+#article { 
+  grid-area: article;   
+  background-color: rgb(242, 240, 240); 
+  /*background-color: rgb(232, 227, 227); */
+  margin: 0;
+  padding: 0;  
+  text-align: center;
+  color:rgb(91, 89, 89);
+  font-family: sans-serif;
+}
+
+#article h1{
+  color:rgb(91, 89, 89);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom:15px;
+  margin-top:15px;
+} 
+
+#footer {
+    grid-area: footer;
+    background-color: hsl(39, 30%, 68%);
+    font-weight: bold;
+    color: darkslategray;
+}
+
+h1 {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #080808;
+ 
+}
+
+
+h1 em {
+    font-style: normal;
+    font-weight: 600;
+}
+
+#title {
+  height: 80px;
+  align-items: center;
+}
+
+.title h1{
+  text-align: center;
+  font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
+  text-transform: uppercase;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  grid-template-rows: 80px 0;
+  grid-gap: 0px;
+  align-items: center;
+  align-content: space-around;
+  vertical-align: middle;
+  
+
+}
+
+.title h1:after{
+  padding-left: 20px;
+  padding-right: 80px;
+  content: " ";
+  
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #414141;
+  border-top: 1px solid #414141;
+  height: 5px;
+  background-color:antiquewhite;
+  width: auto;
+  overflow: hidden;
+}
+
+.title h1:before {
+  content: " ";
+  padding-left: 80px;
+  padding-right: 20px;
+  position: relative;
+  float: right;
+  border-bottom: 1px solid #414141;
+  border-top: 1px solid #414141;
+  height: 5px;
+  background-color:antiquewhite;
+  width: auto;
+  overflow: hidden;
+}
+
+.logo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 79px;
+  height: auto;
+  z-index: 1;
+}
+
+#logo{
+  border-bottom: 1px solid darkslategray;
+}
+
+.etsy_logo{
+  float:left;
+  height:30px;
+  width:30px;
+  margin-right:5px;
+}
+
+.insta_logo{
+  float:left;
+  height:30px;
+  width:30px;
+}
+
+.tall_img{
+  width:397px;
+  height:529px;
+} 
+
+.wide_img{
+  width:397px;
+  height:298px;
+}
+
+.homeImg{
+  height:300px;
+  width:300px;
+}
+
+img{
+  height:500px;
+  width:500px;
+}
+
+#slideshow{
+  width:500px;
+  height:500px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:10px;
+}
+
+#slideName{
+  width:500px;
+  height:50px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:10px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: larger;
+}
+
+
+.nav {
+    grid-area: nav;
+    width: 100%;
+    background-color:  hsl(39, 53%, 79%);
+    border-bottom: 1px solid darkslategray;
+    z-index: 3;
+}
+
+
+.nav a {
+    
+    display: block;
+    color: darkslategray;
+    font-size: 16px;
+    align-items: center;
+    float: left;
+    padding: 1px 15px;
+    cursor: pointer;
+    text-align: center;
+  
+    text-decoration: none;
+    
+    
+}
+
+
+.nav a:hover {
+    background-color: antiquewhite;
+    color: black;
+    border-bottom: 1px solid black;
+    height: 50px;
+    
+}
+
+
+.nav a.active {
+    height: 50px;
+    background-color:   antiquewhite;
+    border-bottom: 1px solid black;
+}
+
+.nav a.icon {
+    display:none;
+    visibility: hidden;
+  
+}
+
+button{
+  background-color: blanchedalmond;
+  color:darkslategray;
+  border-radius: 50px;
+  font-size: medium;
+  font-weight:bold;
+  font-family: 'Times New Roman', Times, serif;
+  margin:5px;
+}
+
+button:hover{
+  background-color:rgb(253, 215, 157)
+}
+
+
+
+@media screen and (max-width: 700px) {
+  body { 
+    grid-template-areas: 
+      "header"
+      "nav"
+      "article"
+      "footer";
+    grid-template-rows: 80px 50px 1fr 70px;  
+    grid-template-columns: 1fr;
+  }
+  
+  .nav a:not(:first-child) {display: none;}
+  .nav a.icon {
+    visibility: visible;
+    float: right;
+    display: block;
+    
+  }
+
+
+}
+
+@media screen and (max-width: 700px) {
+  .nav.responsive {position: relative;}
+  .nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+    background-color: hsl(39, 53%, 79%);
+    height: 50px;
+  }
+
+  .nav.responsive a.active {
+    background-color: antiquewhite;
+    height: 50px;
+    border-bottom: 1px solid black;
+  }
+
+  .nav a:hover {
+    background-color: antiquewhite;
+    color: black;
+    border-bottom: 1px solid black;
+    height: 50px;
+    
+}
+}

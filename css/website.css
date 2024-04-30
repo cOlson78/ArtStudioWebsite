@@ -1,0 +1,56 @@
+body { 
+    display: grid;
+    grid-template-areas: 
+      "header header header"
+      "nav article ads"
+      "footer footer footer";
+    grid-template-rows: 80px 1fr 70px;  
+    grid-template-columns: 20% 1fr 15%;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    height: 100vh;
+    margin: 0;
+    }  
+  header, footer, article, nav, div {
+    padding: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+  #pageHeader {
+    grid-area: header;
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    }
+  #pageFooter {
+    grid-area: footer;
+    background-color: antiquewhite;
+    }
+  #mainArticle { 
+    grid-area: article;   
+    background-color: lightgray;   
+    }
+  #mainNav { 
+    grid-area: nav; 
+    background-color: #8a7d64;
+    }
+  #siteAds { 
+    grid-area: ads; 
+    background-color: #d9c9b5;
+    } 
+
+  /* Stack the layout on small devices/viewports. */
+  /* This is our responsive design. On smaller viewports/devices, each component is stacked on top of each other,
+    yet the article section is the biggest one.*/
+  @media all and (max-width: 600px) {
+    body { 
+      grid-template-areas: 
+        "header"
+        "article"
+        "ads"
+        "nav"
+        "footer";
+      grid-template-rows: 80px 2fr 70px 1fr 70px;  
+      grid-template-columns: 1fr;
+   }
+  }
