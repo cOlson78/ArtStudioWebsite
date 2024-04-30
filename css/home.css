@@ -28,7 +28,6 @@ header, footer, article, nav, div {
 #article { 
   grid-area: article;   
   background-color: rgb(242, 240, 240); 
-  /*background-color: rgb(232, 227, 227); */
   margin: 0;
   padding: 0;  
   text-align: center;
@@ -182,6 +181,27 @@ img{
   font-size: larger;
 }
 
+table{
+  border: 2px solid black;
+  width:100%;
+  border-collapse: collapse;
+}
+
+td,th{
+  border:1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+th{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+td{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 
 .nav {
     grid-area: nav;
@@ -213,7 +233,7 @@ img{
     background-color: antiquewhite;
     color: black;
     border-bottom: 1px solid black;
-    height: 50px;
+    height: 49px;
     
 }
 
